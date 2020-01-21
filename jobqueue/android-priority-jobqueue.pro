@@ -1,6 +1,7 @@
 # Gcm support is a compileOnly dependency, no need to warn
 -dontwarn com.birbit.android.jobqueue.scheduling.GcmJobSchedulerService
 -dontwarn com.birbit.android.jobqueue.scheduling.GcmScheduler
+-dontwarn com.google.android.gms.gcm.GcmTaskService
 
 # Keep Job and its serialVersionUID information
 -keepnames class com.birbit.android.jobqueue.Job
