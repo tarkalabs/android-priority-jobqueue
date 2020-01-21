@@ -29,6 +29,7 @@ android {
 
     defaultConfig {
         minSdkVersion 14
+        consumerProguardFiles 'android-priority-jobqueue.pro'
     }
 
     testOptions {
